@@ -13,7 +13,7 @@ contract Ballot {
 
     event Voted(address indexed voter, uint indexed proposal);
 
-    constructor(string[] memory names) public {
+    constructor(string[] memory names) {
         chairperson = msg.sender;
         for (uint i = 0; i < names.length; i++) {
             proposals.push(Proposal({name: names[i], voteCount: 0}));
