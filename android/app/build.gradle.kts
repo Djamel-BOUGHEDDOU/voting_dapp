@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.voting_dapp"
+    namespace = "com.avacus.wallet_connect_v2"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
